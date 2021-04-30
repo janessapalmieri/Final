@@ -542,9 +542,9 @@ asm_main:
 
 	end:
 
-	inc		ecx
-	cmp		ecx, edx
-	jl		top_loop
+	inc	ecx
+	cmp	ecx, edx
+	jl	top_loop
 
 	; End message
 	call	print_nl
